@@ -1,0 +1,35 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="Mn]!Ls~BM,kxUGZyR9Il">Player</variable><variable type="KIND_SpriteKind" id="xV3()V`5A+g==+_VfvR`">Projectile</variable><variable type="KIND_SpriteKind" id="t=LXf_ryq5DIu$c=@%m6">Food</variable><variable type="KIND_SpriteKind" id="?t8r+iTH8qQlEuF*Y+Tu">Enemy</variable><variable id=")}i.RZMD3X)554:B8Clr">Flappy bird</variable><variable id="*Rob*3:h[,2|@skG_AeI">mySprite</variable></variables><block type="pxt-on-start" id="u4:i8|u)5[0q+Lb+ikAX" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id=",K-7K%EGHq;)3IajumQe"><field name="VAR" id=")}i.RZMD3X)554:B8Clr">Flappy bird</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="`QYFc=h*+p8Fxa^*GQzZ"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"4w[,LkFZR;%J6|I,%L@K"}}</data></shadow><block type="screen_image_picker" id="39J6Fb!PhfQMe)o+T7jU"><field name="img">img`
+. . . . . . . . . . b 5 b . . . 
+. . . . . . . . . b 5 b . . . . 
+. . . . . . b b b b b b . . . . 
+. . . . . b b 5 5 5 5 5 b . . . 
+. . . . b b 5 d 1 f 5 5 d f . . 
+. . . . b 5 5 1 f f 5 d 4 c . . 
+. . . . b 5 5 d f b d d 4 4 . . 
+. b b b d 5 5 5 5 5 4 4 4 4 4 b 
+b d d d b b d 5 5 4 4 4 4 4 b . 
+b b d 5 5 5 b 5 5 5 5 5 5 b . . 
+c d c 5 5 5 5 d 5 5 5 5 5 5 b . 
+c b d c d 5 5 b 5 5 5 5 5 5 b . 
+. c d d c c b d 5 5 5 5 5 d b . 
+. . c b d d d d d 5 5 5 b b . . 
+. . . c c c c c c c c b b . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"39J6Fb!PhfQMe)o+T7jU"}}</data></block></value><value name="kind"><shadow type="spritekind" id=")FT32t[6wZ%MBdLk9zE0"><field name="MEMBER">Player</field></shadow></value></block></value></block></statement></block><block type="keyonevent" id="UdSHRFi/7JU+Uz9F_uZ)" x="210" y="330"><field name="button">controller.up</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="Sprite_blockCombine_change" id="v@b5K8#_NaY9D6q|t/5T"><field name="property">Sprite.x@set</field><value name="mySprite"><block type="variables_get" id="3c)S4pwH.oFkz/@L{.^)"><field name="VAR" id=")}i.RZMD3X)554:B8Clr">Flappy bird</field></block></value><value name="value"><shadow type="math_number" id="^$H+k_uiqK-+P;Y5AAgC"><field name="NUM">0</field></shadow></value></block></statement></block></xml>
